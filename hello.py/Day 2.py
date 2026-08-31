@@ -10,3 +10,9 @@ print(163.7//18)
 print(-7.0//-2.0)
 print(-10//5)
 print(-10.8//5)
+
+i=0
+while(i<=5):
+    if(i%2!=0):
+        print(i)
+        i+=1
