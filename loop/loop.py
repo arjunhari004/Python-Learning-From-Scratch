@@ -66,3 +66,4 @@ while(i<=51):
         c=c+1
     i=i+1
 print(c)       
+
