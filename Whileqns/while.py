@@ -4,470 +4,470 @@
 # # #7+2---->9 not a magic number
 
 
-# i=0
-# n=int(input("Enter a number to find the number is magic number or not: "))
-# s=0
-# while(i<=n):
-#     d=n%10
-#     s=d+s
-#     n=n//10
-#     i=i+1
-# print(s)
-# f=0
-# while(i<=s):
-#     e=s%10
-#     f=e+f
-#     s=s//10
-#     i=i+1
-# if(s==1):
-#     print("magic number")
-# else:
-#     print("not magic")
+i=0
+n=int(input("Enter a number to find the number is magic number or not: "))
+s=0
+while(i<=n):
+    d=n%10
+    s=d+s
+    n=n//10
+    i=i+1
+print(s)
+f=0
+while(i<=s):
+    e=s%10
+    f=e+f
+    s=s//10
+    i=i+1
+if(s==1):
+    print("magic number")
+else:
+    print("not magic")
 
 
 
 
 
-# #fibonocci series
-# n=int(input("Enter a number to find fibonocci series: "))
-# i=2
-# t1=0
-# t2=1
-# print(t1)
-# print(t2)
-# while(i<n):
-#     t3=t1+t2
-#     print(t3)
-#     t1=t2
-#     t2=t3
-#     i=i+1
+#fibonocci series
+n=int(input("Enter a number to find fibonocci series: "))
+i=2
+t1=0
+t2=1
+print(t1)
+print(t2)
+while(i<n):
+    t3=t1+t2
+    print(t3)
+    t1=t2
+    t2=t3
+    i=i+1
 
 
-# #Reverse of a digit
+#Reverse of a digit
 
 
-# num = int(input("Enter the number to reverse: "))
+num = int(input("Enter the number to reverse: "))
 
-# rev = 0
+rev = 0
 
-# while(num > 0):
-#     digit = num % 10
-#     rev = rev * 10 + digit
-#     num = num // 10
+while(num > 0):
+    digit = num % 10
+    rev = rev * 10 + digit
+    num = num // 10
 
-# print(rev)
+print(rev)
 
 
-# #factorial
+#factorial
 
-# i=1
-# n=int(input("Enter a number to find the number to find factorial: "))
-# s=1
-# while(i<=n):
-#         s=s*i
-#         i=i+1
-# print(s)
+i=1
+n=int(input("Enter a number to find the number to find factorial: "))
+s=1
+while(i<=n):
+        s=s*i
+        i=i+1
+print(s)
 
 
-# #Check whether a number is a palindrome.
+#Check whether a number is a palindrome.
 
 
-# num = int(input("Enter the number: "))
+num = int(input("Enter the number: "))
 
-# original = num
-# rev = 0
+original = num
+rev = 0
 
-# while(num > 0):
-#     digit = num % 10
-#     rev = rev * 10 + digit
-#     num = num // 10
+while(num > 0):
+    digit = num % 10
+    rev = rev * 10 + digit
+    num = num // 10
 
-# if original == rev:
-#     print("Palindrome")
-# else:
-#     print("Not a palindrome")
+if original == rev:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
 
 
-# #Find the first digit of a number.
+#Find the first digit of a number.
 
 
-# num = int(input("Enter the number: "))
+num = int(input("Enter the number: "))
 
-# while(num >= 10):
-#     num = num // 10
+while(num >= 10):
+    num = num // 10
 
-# print("First digit:", num)
+print("First digit:", num)
 
 
-# #Find the last digit of a number.
+#Find the last digit of a number.
 
-# num = int(input("Enter the number: "))
+num = int(input("Enter the number: "))
 
-# digit = num % 10
+digit = num % 10
 
-# print("Last digit:", digit)
+print("Last digit:", digit)
 
 
-# #Find the largest digit in a number
+#Find the largest digit in a number
 
-# num = int(input("Enter the number: "))
+num = int(input("Enter the number: "))
 
-# largest = 0
+largest = 0
 
-# while(num > 0):
-#     digit = num % 10
+while(num > 0):
+    digit = num % 10
 
-#     if digit > largest:
-#         largest = digit
+    if digit > largest:
+        largest = digit
 
-#     num = num // 10
+    num = num // 10
 
-# print("Largest digit:", largest)
+print("Largest digit:", largest)
 
 
-# #29. Find the smallest digit in a number.
+#29. Find the smallest digit in a number.
 
-# num = int(input("Enter the number: "))
+num = int(input("Enter the number: "))
 
-# smallest = 9
+smallest = 9
 
-# while(num > 0):
-#     digit = num % 10
+while(num > 0):
+    digit = num % 10
 
-#     if digit < smallest:
-#         smallest = digit
+    if digit < smallest:
+        smallest = digit
 
-#     num = num // 10
+    num = num // 10
 
-# print("Smallest digit:", smallest)
+print("Smallest digit:", smallest)
 
 
-# #30. Count even digits in a number.
+#30. Count even digits in a number.
 
-# num = int(input("Enter the number: "))
+num = int(input("Enter the number: "))
 
-# count = 0
+count = 0
 
-# while(num > 0):
-#     digit = num % 10
+while(num > 0):
+    digit = num % 10
 
-#     if digit % 2 == 0:
-#         count += 1
+    if digit % 2 == 0:
+        count += 1
 
-#     num = num // 10
+    num = num // 10
 
-# print("Even digits:", count)
+print("Even digits:", count)
 
 
 
-# #31. Count odd digits in a number.
+#31. Count odd digits in a number.
 
 
-# num = int(input("Enter the number: "))
+num = int(input("Enter the number: "))
 
-# count = 0
+count = 0
 
-# while(num > 0):
-#     digit = num % 10
+while(num > 0):
+    digit = num % 10
 
-#     if digit % 2 != 0:
-#         count += 1
+    if digit % 2 != 0:
+        count += 1
 
-#     num = num // 10
+    num = num // 10
 
-# print("Odd digits:", count)
+print("Odd digits:", count)
 
 
 
-# #32. Find the sum of even digits.
+#32. Find the sum of even digits.
 
 
-# num = int(input("Enter the number: "))
+num = int(input("Enter the number: "))
 
-# sum = 0
+sum = 0
 
-# while(num > 0):
-#     digit = num % 10
+while(num > 0):
+    digit = num % 10
 
-#     if digit % 2 == 0:
-#         sum += digit
+    if digit % 2 == 0:
+        sum += digit
 
-#     num = num // 10
+    num = num // 10
 
-# print("Sum of even digits:", sum)
+print("Sum of even digits:", sum)
 
 
-# #33. Find the sum of odd digits.
+#33. Find the sum of odd digits.
 
 
-# num = int(input("Enter the number: "))
+num = int(input("Enter the number: "))
 
-# sum = 0
+sum = 0
 
-# while(num > 0):
-#     digit = num % 10
+while(num > 0):
+    digit = num % 10
 
-#     if digit % 2 != 0:
-#         sum += digit
+    if digit % 2 != 0:
+        sum += digit
 
-#     num = num // 10
+    num = num // 10
 
-# print("Sum of odd digits:", sum)
+print("Sum of odd digits:", sum)
 
 
 
-# #34. Find the product of even digits.
+#34. Find the product of even digits.
 
 
-# num = int(input("Enter the number: "))
+num = int(input("Enter the number: "))
 
-# product = 1
+product = 1
 
-# while(num > 0):
-#     digit = num % 10
+while(num > 0):
+    digit = num % 10
 
-#     if digit % 2 == 0:
-#         product = product * digit
+    if digit % 2 == 0:
+        product = product * digit
 
-#     num = num // 10
+    num = num // 10
 
-# print("Product of even digits:", product)
+print("Product of even digits:", product)
 
-# #35. Find the product of odd digits.
+#35. Find the product of odd digits.
 
-# num = int(input("Enter the number: "))
+num = int(input("Enter the number: "))
 
-# product = 1
+product = 1
 
-# while(num > 0):
-#     digit = num % 10
+while(num > 0):
+    digit = num % 10
 
-#     if digit % 2 != 0:
-#         product = product * digit
+    if digit % 2 != 0:
+        product = product * digit
 
-#     num = num // 10
+    num = num // 10
 
-# print("Product of odd digits:", product)
+print("Product of odd digits:", product)
 
 
-# #36. Count how many times digit 5 appears in a number
+#36. Count how many times digit 5 appears in a number
 
-# num = int(input("Enter the number: "))
+num = int(input("Enter the number: "))
 
-# count = 0
+count = 0
 
-# while(num > 0):
-#     digit = num % 10
+while(num > 0):
+    digit = num % 10
 
-#     if digit == 5:
-#         count += 1
+    if digit == 5:
+        count += 1
 
-#     num = num // 10
+    num = num // 10
 
-# print("Digit 5 appears:", count, "times")
+print("Digit 5 appears:", count, "times")
 
 
-# #37. Count the frequency of a given digit.
+#37. Count the frequency of a given digit.
 
-# #while
+#while
 
-# num = int(input("Enter the number: "))
-# given = int(input("Enter the digit to find: "))
+num = int(input("Enter the number: "))
+given = int(input("Enter the digit to find: "))
 
-# count = 0
+count = 0
 
-# while(num > 0):
-#     digit = num % 10
+while(num > 0):
+    digit = num % 10
 
-#     if digit == given:
-#         count += 1
+    if digit == given:
+        count += 1
 
-#     num = num // 10
+    num = num // 10
 
-# print("Frequency:", count)
+print("Frequency:", count)
 
 
-# #for
+#for
 
-# num = int(input("Enter the number: "))
-# given = int(input("Enter the digit to find: "))
+num = int(input("Enter the number: "))
+given = int(input("Enter the digit to find: "))
 
-# count = 0
+count = 0
 
-# for digit in str(num):
-#     if int(digit) == given:
-#         count += 1
+for digit in str(num):
+    if int(digit) == given:
+        count += 1
 
-# print("Frequency:", count)
+print("Frequency:", count)
 
-# #38. Check whether all digits are even.
+#38. Check whether all digits are even.
 
-# #for
+#for
 
-# num = int(input("Enter the number: "))
+num = int(input("Enter the number: "))
 
-# all_even = True
+all_even = True
 
-# while(num > 0):
-#     digit = num % 10
+while(num > 0):
+    digit = num % 10
 
-#     if digit % 2 != 0:
-#         all_even = False
-#         break
+    if digit % 2 != 0:
+        all_even = False
+        break
 
-#     num = num // 10
+    num = num // 10
 
-# if all_even:
-#     print("All digits are even")
-# else:
-#     print("Not all digits are even")
+if all_even:
+    print("All digits are even")
+else:
+    print("Not all digits are even")
 
 
-# #while
+#while
 
-# num = int(input("Enter the number: "))
+num = int(input("Enter the number: "))
 
-# all_even = True
+all_even = True
 
-# for digit in str(num):
-#     if int(digit) % 2 != 0:
-#         all_even = False
-#         break
+for digit in str(num):
+    if int(digit) % 2 != 0:
+        all_even = False
+        break
 
-# if all_even:
-#     print("All digits are even")
-# else:
-#     print("Not all digits are even")
+if all_even:
+    print("All digits are even")
+else:
+    print("Not all digits are even")
 
-# #39. Check whether all digits are odd.
+#39. Check whether all digits are odd.
 
-# #for
+#for
 
-# num = int(input("Enter the number: "))
+num = int(input("Enter the number: "))
 
-# all_odd = True
+all_odd = True
 
-# while(num > 0):
-#     digit = num % 10
+while(num > 0):
+    digit = num % 10
 
-#     if digit % 2 == 0:
-#         all_odd = False
-#         break
+    if digit % 2 == 0:
+        all_odd = False
+        break
 
-#     num = num // 10
+    num = num // 10
 
-# if all_odd:
-#     print("All digits are odd")
-# else:
-#     print("Not all digits are odd")
+if all_odd:
+    print("All digits are odd")
+else:
+    print("Not all digits are odd")
 
 
-# #while
+#while
 
-# num = int(input("Enter the number: "))
+num = int(input("Enter the number: "))
 
-# all_odd = True
+all_odd = True
 
-# for digit in str(num):
-#     if int(digit) % 2 == 0:
-#         all_odd = False
-#         break
+for digit in str(num):
+    if int(digit) % 2 == 0:
+        all_odd = False
+        break
 
-# if all_odd:
-#     print("All digits are odd")
-# else:
-#     print("Not all digits are odd")
+if all_odd:
+    print("All digits are odd")
+else:
+    print("Not all digits are odd")
 
 
 
-# #Print sunny numbers
+#Print sunny numbers
 
 
-# #while 
+#while 
 
 
-# n = int(input("Enter number: "))
+n = int(input("Enter number: "))
 
-# num = 1
+num = 1
 
-# while(num <= n):
+while(num <= n):
 
-#     i = 1
+    i = 1
 
-#     while(i * i <= num + 1):
-#         if i * i == num + 1:
-#             print(num)
-#             break
+    while(i * i <= num + 1):
+        if i * i == num + 1:
+            print(num)
+            break
 
-#         i += 1
+        i += 1
 
-#     num += 1
+    num += 1
 
 
-# #for
+#for
 
-# n = int(input("Enter number: "))
+n = int(input("Enter number: "))
 
-# for num in range(1, n + 1):
+for num in range(1, n + 1):
 
-#     for i in range(1, num + 2):
+    for i in range(1, num + 2):
 
-#         if i * i == num + 1:
-#             print(num)
-#             break
+        if i * i == num + 1:
+            print(num)
+            break
 
 
 
-# 5 number from the user check which is greatest from those
+#5 number from the user check which is greatest from those
 
-# greatest = 0
+greatest = 0
 
-# for i in range(5):
-#     num = int(input("Enter a number: "))
+for i in range(5):
+    num = int(input("Enter a number: "))
 
-#     if num > greatest:
-#         greatest = num
+    if num > greatest:
+        greatest = num
 
-# print("Greatest number:", greatest)
+print("Greatest number:", greatest)
 
 
-# #count and print factors of entering number by the user
+#count and print factors of entering number by the user
 
 
-# n = int(input("Enter a number: "))
+n = int(input("Enter a number: "))
 
-# count=0
+count=0
 
-# print("Factors are:")
+print("Factors are:")
 
-# for i in range(1,n+1):
-#     if n%i==0:
-#         print(i)
-#         count+=1
+for i in range(1,n+1):
+    if n%i==0:
+        print(i)
+        count+=1
 
-# print("Number of Factors:",count)        
+print("Number of Factors:",count)        
 
 
 #Check Whether the entered number is spy or not
 
 
-# num = int(input("Enter the number: "))
+num = int(input("Enter the number: "))
 
-# sum = 0
-# product = 1
+sum = 0
+product = 1
 
-# while(num > 0):
-#     digit = num % 10
+while(num > 0):
+    digit = num % 10
 
-#     sum = sum + digit
-#     product = product * digit
+    sum = sum + digit
+    product = product * digit
 
-#     num = num // 10
+    num = num // 10
 
-# if sum == product:
-#     print("Spy Number")
-# else:
-#     print("Not a Spy Number")
+if sum == product:
+    print("Spy Number")
+else:
+    print("Not a Spy Number")
 
 #check whether the number is harshad or not
 
