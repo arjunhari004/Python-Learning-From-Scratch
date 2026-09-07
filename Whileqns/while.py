@@ -485,3 +485,17 @@ if original % sum == 0:
     print("Harshad Number")
 else:
     print("Not a Harshad Number")
+
+
+
+#5 number from the user check which is greatest from those
+
+greatest = 0
+
+for i in range(5):
+    num = int(input("Enter a number: "))
+
+    if num > greatest:
+        greatest = num
+
+print("Greatest number:", greatest)    
