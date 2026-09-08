@@ -18,3 +18,22 @@ print( any(lisstt) )
 print(all(lisstt))
 print(lisstt[0])
 print( sorted(lisstt))
+
+
+
+lisstt.append(100)
+print(lisstt)
+
+
+lisstt.insert(2,200)
+print(lisstt)
+
+#possibilities
+
+#lst_name.extend(101)
+#primt(lsstt{})
+
+
+lisstt = [10,10,30,40]
+
+
