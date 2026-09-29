@@ -899,6 +899,8 @@
 #     course()
 # training()
 
+# 27/09/26
+
 # # 120.
 # def company():
 #     print("ABC")
@@ -1087,7 +1089,7 @@
 
 # college("VJCET", "AI", "Kochi")
 
-# 27/09/26
+
 
 
 # 140. Create `college(name, course, city)` and call it using keyword
