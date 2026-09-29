@@ -447,6 +447,7 @@
 
 # # 26/09/25
 
+# 50. Create a function `laptop(brand, model)` and call it using keyword
 
 # #50.
 # def laptop(brand, model):
@@ -454,11 +455,15 @@
 #     print(model)
 # laptop(brand="ACER",model="Aspire")
 
-# #51
+# 51. Create a function `address(city, state)` and call it using keyword
+
+
 # def address(city, state):
 #     print(city)
 #     print(state)
 # address(city="Kochi",state="Kerala")
+
+# 52. Create a function `job(role, company)` and call it using keyword
 
 # #52
 # def job(role, company):
@@ -466,11 +471,18 @@
 #      print(company)
 # job(role="Developer",company="Tcs")
 
+# 53. Create a function `food(name, type)` and call it using keyword
+
+
 # #53
 # def food(name, type):
 #     print(name)
 #     print(type)
 # food(name="Biriyani",type="veg")
+
+
+# 54. Create a function `profile(name, city, course)` and call it using
+
 
 # #54
 # def profile(name, city, course):
@@ -479,12 +491,22 @@
 #     print(course)
 # profile(name="Alan",city="Kochi",course="It")
 
+# 55. Create a function `student(name, course, city)` and call it using
+
+# keyword arguments in a different order.
+
 # #55
 # def student(name, course, city):
 #     print(name)
 #     print(city)
 #     print(course)
 # student(name="Alan",course="Python",city="Kochi")
+
+# 56. Create a function `employee(name, department, city)` and call it
+
+# using keyword arguments in a different order.
+
+
 
 # #56
 # def employee(name, department, city):
@@ -1067,7 +1089,10 @@
 
 # 27/09/26
 
-# 140. 
+
+# 140. Create `college(name, course, city)` and call it using keyword
+
+# arguments.
 
 def college(name, course, city):
     print(name)
@@ -1077,7 +1102,9 @@ def college(name, course, city):
 college(name="VJCET", course="AI", city="Kochi")
 
 
-# 141. 
+# 141. Create `teacher(name, subject)` and call it using positional
+
+# arguments.
 
 def teacher(name, subject):
     print(name)
@@ -1086,7 +1113,8 @@ def teacher(name, subject):
 teacher("Anu", "Python")
 
 
-# 142. 
+# 142. Create `teacher(name, subject)` and call it using keyword arguments.
+
 
 def teacher(name, subject):
     print(name)
@@ -1095,7 +1123,10 @@ def teacher(name, subject):
 teacher(name="Anu", subject="Python")
 
 
-# 143. 
+# 143. Create `company(name, location)` and call it using positional
+
+# arguments.
+
 
 def company(name, location):
     print(name)
@@ -1104,7 +1135,7 @@ def company(name, location):
 company("TCS", "Kochi")
 
 
-# 144. 
+# 144. Create `company(name, location)` and call it using keyword arguments.
 
 def company(name, location):
     print(name)
@@ -1113,7 +1144,7 @@ def company(name, location):
 company(name="TCS", location="Kochi")
 
 
-# 145. 
+# 145. Create `book(title, author)` and call it using positional arguments. 
 
 def book(title, author):
     print(title)
@@ -1121,8 +1152,7 @@ def book(title, author):
 
 book("Python Programming", "John")
 
-
-# 146.
+# 146. Create `book(title, author)` and call it using keyword arguments.
 
 def book(title, author):
     print(title)
@@ -1131,7 +1161,7 @@ def book(title, author):
 book(title="Python Programming", author="John")
 
 
-# 147. 
+# 147. Create `movie(name, language)` and call it using positional arguments. 
 
 def movie(name, language):
     print(name)
@@ -1139,8 +1169,7 @@ def movie(name, language):
 
 movie("Drishyam", "Malayalam")
 
-
-# 148. 
+ # 148. Create `movie(name, language)` and call it using keyword arguments.
 
 def movie(name, language):
     print(name)
@@ -1149,7 +1178,7 @@ def movie(name, language):
 movie(name="Drishyam", language="Malayalam")
 
 
-# 149. 
+# 149. Create `laptop(brand, model)` and call it using positional arguments.
 
 def laptop(brand, model):
     print(brand)
@@ -1158,7 +1187,7 @@ def laptop(brand, model):
 laptop("Dell", "Inspiron")
 
 
-# 150. 
+# 150. Create `laptop(brand, model)` and call it using keyword arguments.
 
 def laptop(brand, model):
     print(brand)
