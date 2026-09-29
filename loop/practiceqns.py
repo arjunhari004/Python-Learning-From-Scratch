@@ -901,193 +901,193 @@
 
 # 27/09/26
 
-# # 120.
-# def company():
-#     print("ABC")
-# def employee():
-#     company()
-# employee()
+# 120.
+def company():
+    print("ABC")
+def employee():
+    company()
+employee()
 
-# # 121. 
-# def a():
-#     print("A")
-# def b():
-#     a()
-# def c():
-#     b()
-# c()
+# 121. 
+def a():
+    print("A")
+def b():
+    a()
+def c():
+    b()
+c()
 
-# # 122. 
-# def one():
-#     print("One")
-# def two():
-#     one()
-# def three():
-#     two()
-# three()
+# 122. 
+def one():
+    print("One")
+def two():
+    one()
+def three():
+    two()
+three()
 
-# # 123. 
-# def hello():
-#     print("Hello")
-# def welcome():
-#     hello()
-# def start():
-#     welcome()
-# start()
+# 123. 
+def hello():
+    print("Hello")
+def welcome():
+    hello()
+def start():
+    welcome()
+start()
 
-# # 124. 
-# def name():
-#     print("Arun")
-# def student():
-#     name()
-# def college():
-#     student()
-# college()
+# 124. 
+def name():
+    print("Arun")
+def student():
+    name()
+def college():
+    student()
+college()
 
-# # 125.
-# def python():
-#     print("Python")
-# def course():
-#     python()
-# def training():
-#     course()
-# training()
+# 125.
+def python():
+    print("Python")
+def course():
+    python()
+def training():
+    course()
+training()
 
-# # 126. 
-# def a():
-#     print("A")
-# def b():
-#     a()
-# def c():
-#     a()
-# b()
-# c()
+# 126. 
+def a():
+    print("A")
+def b():
+    a()
+def c():
+    a()
+b()
+c()
 
-# # 127. 
-# def name():
-#     print("Anu")
-# def city():
-#     print("Kochi")
-# def details():
-#     name()
-#     city()
-# details()
+# 127. 
+def name():
+    print("Anu")
+def city():
+    print("Kochi")
+def details():
+    name()
+    city()
+details()
 
-# # 128. 
-# def hello():
-#     print("Hello")
-# def bye():
-#     print("Bye")
-# def message():
-#     hello()
-#     bye()
-# message()
+# 128. 
+def hello():
+    print("Hello")
+def bye():
+    print("Bye")
+def message():
+    hello()
+    bye()
+message()
 
-# # 129. 
-# def one():
-#     print("One")
-# def two():
-#     print("Two")
-# def numbers():
-#     one()
-#     two()
-# numbers()
+# 129. 
+def one():
+    print("One")
+def two():
+    print("Two")
+def numbers():
+    one()
+    two()
+numbers()
 
-# # 130. 
-# def python():
-#     print("Python")
+# 130. 
+def python():
+    print("Python")
 
-# def pandas():
-#     print("Pandas")
+def pandas():
+    print("Pandas")
 
-# def topics():
-#     python()
-#     pandas()
+def topics():
+    python()
+    pandas()
 
-# topics()
-
-
-# # 131.
-# def student(name, city):
-#     print(name)
-#     print(city)
-
-# student("Albert", "Kochi")
+topics()
 
 
-# # 132.
+# 131.
+def student(name, city):
+    print(name)
+    print(city)
 
-# def student(name, city):
-#     print(name)
-#     print(city)
-
-# student(name="Albert", city="Kochi")
-
-
-# # 133. 
-
-# def employee(name, department):
-#     print(name)
-#     print(department)
-
-# employee("Albert", "IT")
+student("Albert", "Kochi")
 
 
-# # 134.
+# 132.
 
-# def employee(name, department):
-#     print(name)
-#     print(department)
+def student(name, city):
+    print(name)
+    print(city)
 
-# employee(name="Albert", department="IT")
-
-
-# # 135.
-
-# def course(name, duration):
-#     print(name)
-#     print(duration)
-
-# course("Python", "3 Months")
+student(name="Albert", city="Kochi")
 
 
-# # 136.
+# 133. 
 
-# def course(name, duration):
-#     print(name)
-#     print(duration)
+def employee(name, department):
+    print(name)
+    print(department)
 
-# course(name="Python", duration="3 Months")
-
-
-# # 137.
-
-# def person(name, city, age):
-#     print(name)
-#     print(city)
-#     print(age)
-
-# person("Albert", "Kochi", 21)
+employee("Albert", "IT")
 
 
-# # 138.
+# 134.
 
-# def person(name, city, age):
-#     print(name)
-#     print(city)
-#     print(age)
+def employee(name, department):
+    print(name)
+    print(department)
 
-# person(name="Albert", city="Kochi", age=21)
+employee(name="Albert", department="IT")
 
 
-# # 139. 
+# 135.
 
-# def college(name, course, city):
-#     print(name)
-#     print(course)
-#     print(city)
+def course(name, duration):
+    print(name)
+    print(duration)
 
-# college("VJCET", "AI", "Kochi")
+course("Python", "3 Months")
+
+
+# 136.
+
+def course(name, duration):
+    print(name)
+    print(duration)
+
+course(name="Python", duration="3 Months")
+
+
+# 137.
+
+def person(name, city, age):
+    print(name)
+    print(city)
+    print(age)
+
+person("Albert", "Kochi", 21)
+
+
+# 138.
+
+def person(name, city, age):
+    print(name)
+    print(city)
+    print(age)
+
+person(name="Albert", city="Kochi", age=21)
+
+
+# 139. 
+
+def college(name, course, city):
+    print(name)
+    print(course)
+    print(city)
+
+college("VJCET", "AI", "Kochi")
 
 
 
