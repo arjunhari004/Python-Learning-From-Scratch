@@ -441,6 +441,13 @@ def movie(name, language):
     print(language)
 movie(name="RRR",language="Kanada")
 
+
+
+
+
+# 26/09/25
+
+
 #50.
 def laptop(brand, model):
     print(brand)
